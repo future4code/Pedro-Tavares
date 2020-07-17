@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* ####### CÓDIGO DO INDEX.HTML ####### */
+
+nav {
+    display: flex;  
+     
+    justify-content: space-between;/*justifica no eixo x*/
+     /*justifica no eixo y*/
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.logo {
+    color: #3b46f0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.navbar a {
+    all: unset;
+    margin-left: 15px;
+    color: #3b46f0;
+}
+
+#section-sobre{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#section-sobre h1 {
+    font-size: 40px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    margin-bottom: 30px;
+   
+}
+
+#div-sobre-foto-texto{
+    display: flex;
+    
+    
+}
+
+#img-sobre{
+    width: 300px;
+    margin-right: 15px;
+}
+
+
+/* #img-sobre{
+    
+    background-color: #aaa;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+
+} */
+
+#skills {
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#skills h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#galeria h2 {
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+#galeria h2, #imgs-galeria {
+    margin-right: 40px;
+    margin-left: 40px;
+}
+#imgs-galeria img{
+    width: 400px;
+}
+
+#imgs-galeria  {
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+
+#galeria h2 {
+    margin-top: 30px;
+    text-align: center;
+}
+
+footer {
+    margin-top:80px;
+    background-color: #3b46f0;
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    height: 59px;
+}
+footer img{
+    width: 40px;
+    margin-left: 15px;
+}
+
+/* ####### CÓDIGO DO PROJETO1.HTML, PROJETO2.HTML, PROJETO3.HTML ####### */
+
+.main-projetos {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.main-projetos h2 {
+    margin-bottom: 20px;
+}
+.main-projetos p {
+    margin-bottom: 10px;
+}
+.main-projetos img{
+    width: 400px;
+    margin-bottom: 60px;
+}
+
+.projetos {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-left: 40px;
+}
+
+.projetos h2{
+   
+    text-align: center;
+
+}
+
+.projetos div {
+    display: flex;
+    justify-content: center;
+    
+}
+.projetos img {
+    width: 300px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.div-outros-projetos p{
+    
+}
+
+/* ####### CÓDIGO DO CONTATO.HTML ####### */
+
+form {
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vw;
+    margin-bottom: 12.5vw;
+    margin-left: 35vw;
+    margin-right: 35vw;
+}
+
+form input {
+    width: 300px;
+    height: 20px;
+    margin-bottom: 20px;
+    margin-top: -3px;
+    margin-left: 2vw;
+}
+
+form label {
+   color: whitesmoke;
+    margin-bottom: 2px;
+    background-color: #3b46f0;
+    margin-right: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 6px;
+    margin-left: 2.01vw;
+    margin-top: 0.5vw;
+}
+
+main h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+#label-email{
+width: 185.3px;
+
+
+}
+
+#label-nome{
+    width: 115.1px;
+}
+
+#label-mensagem {
+    width: 256px;
+}
+
+form #input-mensagem {
+    height: 80px;
+    width: 500px;
+}
+
+form button {
+    all: unset;
+    background-color: #3b46f0;
+    color: whitesmoke;
+    width: 80px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 446px;
+    margin-bottom: 10px;
+}
