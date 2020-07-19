@@ -1,208 +1,299 @@
-*{
+* {
     margin: 0;
-    padding: 0;
-    
+} 
+
+
+/* #### INDEX.HTML #### */
+
+header {
+    height: 7vw;
+    font-family: 'Playfair Display', serif;
+    color: #3d00e4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-/* ####### CÓDIGO DO INDEX.HTML ####### */
-
-nav {
-    display: flex;  
-     
-    justify-content: space-between;/*justifica no eixo x*/
-     /*justifica no eixo y*/
-    align-items: center;
-    margin-top: 20px;
-    margin-bottom: 70px;
-    margin-left: 40px;
-    margin-right: 40px;
+.logo, .navbar{
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 .logo {
-    color: #3b46f0;
-    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.sub-texto{
+    font-size: 14.4px;
+    font-family: 'Playfair Display', serif; /*COLOCAR uma sem serifa aqui!*/
+    font-weight: 500;
 }
 
 .navbar a {
     all: unset;
-    margin-left: 15px;
-    color: #3b46f0;
+    margin-left: 30px;
+    font-family: 'Playfair Display', serif; /*COLOCAR uma sem serifa aqui!*/
+    font-weight: 600;
 }
 
-#section-sobre{
-    margin-left: 40px;
-    margin-right: 40px;
-}
-
-#section-sobre h1 {
-    font-size: 40px;
-    font-family: 'Quicksand', sans-serif;
-    text-align: center;
-    margin-bottom: 30px;
-   
-}
-
-#div-sobre-foto-texto{
+.section-frase-inicial {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vw;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.h1-frase-inicial{
+    font-size: 50px;
+    color: black;
+    font-family: 'Playfair Display', serif;
+}
+
+.h1-frase-inicial span {
+    color: #3d00e4; 
+}
+
+.section-habilidades {
+    margin-right: 60px;
     
-    
 }
 
-#img-sobre{
-    width: 300px;
-    margin-right: 15px;
+.h2-habilidades h2 {
+    font-family: 'Playfair Display', Serif;
+    font-size: 60px;
 }
 
-
-/* #img-sobre{
-    
-    background-color: #aaa;
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    overflow: hidden;
-    position: relative;
-
-} */
-
-#skills {
-    margin-top: 40px;
-    margin-left: 40px;
-    margin-right: 40px;
-}
-
-#skills h2 {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 40px;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-#galeria h2 {
-    font-family: 'Quicksand', sans-serif;
-    margin-bottom: 30px;
-    font-size: 40px;
-}
-
-#galeria h2, #imgs-galeria {
-    margin-right: 40px;
-    margin-left: 40px;
-}
-#imgs-galeria img{
-    width: 400px;
-}
-
-#imgs-galeria  {
+.h2-habilidades {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
+    margin-top: 120px;
+    text-align: end;
+    color: #3d00e4;
+} 
 
-    
+.habilidades-linha {
+    background-color: #3d00e4;
+    margin-right: 80px;
+    margin-left: 90px;
+    height: 1px;
+    width: 86vw;
 }
 
-#galeria h2 {
+.titulos-sobre {
+
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 150px;
     margin-top: 30px;
-    text-align: center;
+}
+
+.frame-foto {
+   width: 100px;
+} 
+
+.p-skills {
+    background-color: #3d00e4;
+    color: whitesmoke;
+}
+.p-formação{
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color: #3d00e4;
+    color: whitesmoke;
+}
+
+.p-experiencia-profissional {
+    background-color: #3d00e4;
+    color: whitesmoke;
+}
+
+.titulos-sobre p{
+   
+   font-size: 25px;
+   color: whitesmoke;
+}
+
+.lists {
+    margin-left: 130px;
+    display: flex;
+    font-size: 18px;
+    color: black;
+    
+    
+}
+
+.div-lists {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.list-skill li{
+    list-style: none;
+
+}
+
+.list-experiencia-profissional{
+    margin-left: 95px;
+}
+
+.list-experiencia-profissional li {
+    list-style: none;
+}
+
+.list-skill {
+    font-size: 18px;
+    margin-left: 120px;  
+}
+
+.lists li{
+    list-style: none;    
+}
+
+.h3-projetos-galeria {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+.h3-projeto-sistema-loja {
+    margin-right: 358px;
+    background-color: #3d00e4;
+    color: whitesmoke; 
+}
+
+.h3-projeto-2 {
+    margin-right: 459px;
+    background-color: #3d00e4;
+    color: whitesmoke;
+}
+
+.h3-projeto-3 {
+    background-color: #3d00e4;
+    color: whitesmoke;
+}
+
+.section-galeria{
+    margin-top: 120px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.section-galeria h2 {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Playfair Display', Serif;
+    font-size: 60px;
+    color: #3d00e4;
+    text-align: end;
+}
+
+.section-galeria img {
+    width: 400px;
+    height: 600px;
+}
+
+.imgs-galeria {
+    margin-top: 10px;
+    margin-left: 150px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
 }
 
 footer {
     margin-top:80px;
-    background-color: #3b46f0;
+    background-color: #3d00e4;
     display: flex;
    justify-content: center;
     align-items: center;
     height: 59px;
 }
+
 footer img{
     width: 40px;
     margin-left: 15px;
 }
 
-/* ####### CÓDIGO DO PROJETO1.HTML, PROJETO2.HTML, PROJETO3.HTML ####### */
 
-.main-projetos {
-    margin-left: 40px;
-    margin-right: 40px;
-}
+/* CONTATO.HTML */
 
-.main-projetos h2 {
-    margin-bottom: 20px;
+#section-contato{
+    height: 29.8vw;
+    margin-top: 90px;
 }
-.main-projetos p {
-    margin-bottom: 10px;
-}
-.main-projetos img{
-    width: 400px;
-    margin-bottom: 60px;
-}
+main {
+display: flex;
+justify-content: space-evenly;
+align-items: center;
 
-.projetos {
-    display: flex;
-    flex-direction: column;
-    margin-left: 40px;
-    margin-left: 40px;
-}
-
-.projetos h2{
-   
-    text-align: center;
+margin-left: 60px;
+margin-right: 60px;
 
 }
 
-.projetos div {
-    display: flex;
-    justify-content: center;
-    
-}
-.projetos img {
-    width: 300px;
-    margin-top: 40px;
-    margin-bottom: 60px;
-    margin-left: 40px;
-    margin-right: 40px;
+#div-contato {
+    height: 350px;
 }
 
-.div-outros-projetos p{
-    
+#linha-contato {
+    background-color: #3d00e4;
+    width: 1px;
+    height: 275px;
 }
 
-/* ####### CÓDIGO DO CONTATO.HTML ####### */
+main div h2 {
+    text-align: left;
+}
+main div p {    
+margin-top: 10px;
+color: whitesmoke;
+background-color: #3d00e4;
+width: 290px;
+padding-left: 10px;
+font-size: 18px;
+}
+
 
 form {
-    background-color: rgba(255, 255, 255, 0);
+    
     display: flex;
     flex-direction: column;
-    margin-top: 5vw;
-    margin-bottom: 12.5vw;
-    margin-left: 35vw;
-    margin-right: 35vw;
+    margin-top: 80px;
 }
 
 form input {
     width: 300px;
     height: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     margin-top: -3px;
     margin-left: 2vw;
+    border: 1px solid #3d00e4;
 }
 
 form label {
    color: whitesmoke;
     margin-bottom: 2px;
-    background-color: #3b46f0;
+    background-color: #3d00e4;
     margin-right: 10px;
     padding-top: 5px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 6px;
     margin-left: 2.01vw;
-    margin-top: 0.5vw;
+    margin-top: 0.1vw;
 }
 
 main h2{
+    margin-top: 90px;
+    
     text-align: center;
     font-size: 40px;
-    font-family: 'Quicksand', sans-serif;
-    
+    font-family: 'Playfair Display', serif;  
 }
 
 #label-email{
@@ -226,12 +317,74 @@ form #input-mensagem {
 
 form button {
     all: unset;
-    background-color: #3b46f0;
+    background-color: #3d00e4;
     color: whitesmoke;
-    width: 80px;
+    width: 84px;
     padding-left: 15px;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-left: 446px;
     margin-bottom: 10px;
+}
+
+/* projetos.html */
+
+.section-projetos {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 60px;
+    height: 40vw;
+}
+
+.section-projetos div img {
+
+    width: 400px;
+    height: 600px;
+    margin-left: 20px;
+    margin-top: -20px;   
+}
+
+.p-tecnologias {
+    color: #3d00e4;
+}
+
+.div-foto-projeto {
+    background-color: #3d00e4;
+    width: 400px;
+    height: 598px;
+    margin-top: 10px;
+    margin-left: 99px;
+} 
+
+.div-foto-projeto-2 {
+    background-color: #3d00e4;
+    width: 400px;
+    height: 598px;
+    margin-top: 10px;
+    margin-left: 210px;
+    margin-right: 110px;
+}
+
+.textos-projetos {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+    margin-right: 40px; 
+}
+
+.textos-projetos h2 {
+    color: whitesmoke;
+    background-color: #3d00e4;
+    width: 286px;
+    padding-left: 15px;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+.textos-projetos p {
+    margin-left: 75px;
+    margin-top: 10px;
+    width: 410px;
 }

@@ -1,60 +1,120 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-
-        <nav>
-            <div class="logo">
-                <h2>Pedro T.</h2>
-                <p>Developer</p>
-            </div>
-            <div class="navbar">
-                <a href="/index.html">HOME</a>
-                <a href="#galeria">PROJETOS</a>
-                <a href="/contato.html">CONTATO</a>
-            </div>
-        </nav>
+        <div class="logo">
+            <P>Pedro t.</P>
+            <p class="sub-texto">D E V E L O P E R</p>
+        </div>
+        <div class="navbar">
+            <a href="/index.html">HOME</a>
+            <a href="/projetos.html">PROJETOS</a>
+            <a href="/contato.html">CONTATO</a>
+        </div>
     </header>
-    <section id="section-sobre">
-        <h1>Designer Gráfico e estudante de Web Development</h1>
-        <div id="div-sobre-foto-texto">
-            <img id="img-sobre" src="/img/Profile.jpg" alt="">
-            <p> *QUEM-SOU+FORMAÇÃO+ESTUDO*Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Eligendi laboriosam mollitia iusto autem ab eius necessitatibus voluptate aliquid amet, maiores ratione maxime porro. <br> Autem non est, voluptatibus maxime saepe aspernatur!
-                <br>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, magnam! Odit dolore, <br> recusandae odio exercitationem doloribus praesentium earum necessitatibus nam! Nostrum perspiciatis <br> velit maiores hic earum quos blanditiis sint neque!
-            </p>
-        </div>
-    </section>
-    <section id="skills">
-        <h2>Competencias e Habilidades</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque eaque porro excepturi nihil, ipsam saepe assumenda facere? Consequatur, quis nostrum rem magnam molestias nobis minus officia dolorum repudiandae. Non, laborum!</p>
-    </section>
-    <section id="galeria">
-        <h2>veja aqui alguns dos meus projetos!</h2>
-        <div id="imgs-galeria">
 
-            <a href="projeto1.html">
-                 <img src="img/code.jpg" alt="">
-            </a>
-            <a href="projeto2.html">   
-                <img src="img/code.jpg" alt="">
-            </a>
-            <a href="projeto3.html">
-                <img src="img/code.jpg" alt="">
-            </a>
-        </div>
+    <section class="section-frase-inicial">
+        <h1 class="h1-frase-inicial">
+            Olá, sou <span>Pedro Tavares</span>, Designer<br>
+            Gráfico e estudante de Desenvolvimento<br>
+            Web Full Stack @ Labenu.
+        </h1>
     </section>
+
+    <section class="section-galeria">
+        <h2> PROJETOS</h2>
+        <div class="div-habilidades-linha">
+            <p class="habilidades-linha"></p>
+            <div class="h3-projetos-galeria">
+                <h3 class="h3-projeto-sistema-loja">Sistema Lojinha da Larica</h3>
+                <h3 class="h3-projeto-2">Site Portfólio</h3>
+                <h3 class="h3-projeto-3">Só para compor o layout :)</h3>
+            </div>
+            <div class="imgs-galeria">
+                <a href="/projetos.html">
+                    <img src="/img/projeto-1.jpg" alt="">
+                </a>
+                <a href="/projetos.html">
+                    <img src="/img/projeto-2.jpg" alt="">
+                </a>
+                <a href="/projetos.html">
+                    <img src="/img/projeto-3.jpg" alt="">
+                </a>
+            </div>
+            <section class="section-habilidades">
+                <div class="h2-habilidades">
+                    <h2> CURRÍCULO </h2>
+                </div>
+                <div class="div-habilidades-linha">
+                    <p class="habilidades-linha"></p>
+                </div>
+                <div class="titulos-sobre">
+                    <p class="p-skills">Skills</p>
+                    <!-- <p>Soft Skills</p> -->
+                    <p class="p-formação">Formação</p>
+                    <p class="p-experiencia-profissional">Experiência Profissional</p>
+                </div>
+                <div class="div-lists">
+                    <div class="lists">
+                        <ul>
+                            <li>Adobe Illustrator</li>
+                            <li>Adobe After Effects</li>
+                            <li>Adobe InDesign</li>
+                            <li>Design de Rótulos</li>
+                            <li>Branding</li>
+                            <li>HTML*</li>
+                            <li>CSS*</li>
+                            <li>Javascript*</li>
+                        </ul>
+                    </div>
+                    <!-- COMPLEMENTAR COM SOFTSKILLS DEPOIS -->
+                    <!-- <div>
+                <ul>
+                    <li>
+
+                    </li>
+                </ul>
+            </div> -->
+                    <div class="list-skill">
+
+                        <ul>
+                            <li>Graduado em Design Gráfico <br> @ IESB (Brasília)</li>
+                            <li>Cursando Web Development<br> @ Labenu</li>
+
+                        </ul>
+                    </div>
+                    <div class="list-experiencia-profissional">
+                        <ul>
+                            <li>Designer Gráfico<br>
+                                @ CONTRAFLUXO 2018 - 2020
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </section>
+    </section>
+
     <footer>
-        <a href="http://"><img src="/img/001-instagram.png" alt=""></a>
-        <a href="http://"><img src="/img/002-github.png" alt=""></a>
-        <a href="http://"><img src="/img/003-linkedin.png" alt=""></a>
+        <a href="http://www.instagram.com/xpedrotavares"><img src="/img/instagram.png" alt=""></a>
+        <a href="http://www.github.com/xpedrotavares"><img src="/img/github.png" alt=""></a>
+        <a href="http://"><img src="/img/linkedin.png" alt=""></a>
     </footer>
+
+
+
 </body>
+
 </html>

@@ -1,46 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-
-        <nav>
-            <div class="logo">
-                <h2>Pedro T.</h2>
-                <p>Developer</p>
-            </div>
-            <div class="navbar">
-                <a href="/index.html">HOME</a>
-                <a href="index.html">PROJETOS</a>
-                <a href="/contato.html">CONTATO</a>
-            </div>
-        </nav>
+        <div class="logo">
+            <P>Pedro t.</P>
+            <p class="sub-texto">D E V E L O P E R</p>
+        </div>
+        <div class="navbar">
+            <a href="/index.html">HOME</a>
+            <a href="/projetos.html">PROJETOS</a>
+            <a href="/contato.html">CONTATO</a>
+        </div>
     </header>
 
-    <main>
-        <h2>Vamos conversar sobre o seu projeto!</h2>
-        <form action="#">
-            <label id="label-email" for="email">Me diga qual seu email aqui:</label>
-            <input type="text" name="email">
-            <label id="label-nome" for="nome">Qual o seu nome?</label>
-            <input type="text" name="nome">
-            <label id="label-mensagem" for="mensagem">Me conte mais sobre o seu projeto aqui:</label>
-            <input id="input-mensagem" type="text" name="mensagem">
-            <button type="submit">ENVIAR!</button>
-        </form>
+    <section id="section-contato">
+        <main>
+            <div id="div-contato">
 
-    </main>
+                <h2>Vamos conversar<br> sobre o seu projeto!</h2>
+
+                <p>Te responderei o mais breve possível :)</p>
+            </div>
+            <p id="linha-contato"></p>
+            <div>
+
+                <form action="#">
+                    <label id="label-email" for="email">Me diga qual seu email aqui:</label>
+                    <input type="text" name="email">
+                    <label id="label-nome" for="nome">Qual o seu nome?</label>
+                    <input type="text" name="nome">
+                    <label id="label-mensagem" for="mensagem">Me conte mais sobre o seu projeto aqui:</label>
+                    <input id="input-mensagem" type="text" name="mensagem">
+                    <button type="submit">ENVIAR!</button>
+                </form>
+            </div>
+
+        </main>
+    </section>
 
     <footer>
-        <a href="http://"><img src="/img/001-instagram.png" alt=""></a>
-        <a href="http://"><img src="/img/002-github.png" alt=""></a>
-        <a href="http://"><img src="/img/003-linkedin.png" alt=""></a>
+        <a href="http://www.instagram.com/xpedrotavares"><img src="/img/instagram.png" alt=""></a>
+        <a href="http://www.github.com/xpedrotavares"><img src="/img/github.png" alt=""></a>
+        <a href="http://"><img src="/img/linkedin.png" alt=""></a>
     </footer>
 </body>
+
 </html>
