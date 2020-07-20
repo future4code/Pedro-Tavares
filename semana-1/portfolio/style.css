@@ -1,0 +1,390 @@
+* {
+    margin: 0;
+} 
+
+
+/* #### INDEX.HTML #### */
+
+header {
+    height: 7vw;
+    font-family: 'Playfair Display', serif;
+    color: #3d00e4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo, .navbar{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.sub-texto{
+    font-size: 14.4px;
+    font-family: 'Playfair Display', serif; /*COLOCAR uma sem serifa aqui!*/
+    font-weight: 500;
+}
+
+.navbar a {
+    all: unset;
+    margin-left: 30px;
+    font-family: 'Playfair Display', serif; /*COLOCAR uma sem serifa aqui!*/
+    font-weight: 600;
+}
+
+.section-frase-inicial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vw;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.h1-frase-inicial{
+    font-size: 50px;
+    color: black;
+    font-family: 'Playfair Display', serif;
+}
+
+.h1-frase-inicial span {
+    color: #3d00e4; 
+}
+
+.section-habilidades {
+    margin-right: 60px;
+    
+}
+
+.h2-habilidades h2 {
+    font-family: 'Playfair Display', Serif;
+    font-size: 60px;
+}
+
+.h2-habilidades {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 120px;
+    text-align: end;
+    color: #3d00e4;
+} 
+
+.habilidades-linha {
+    background-color: #3d00e4;
+    margin-right: 80px;
+    margin-left: 90px;
+    height: 1px;
+    width: 86vw;
+}
+
+.titulos-sobre {
+
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.frame-foto {
+   width: 100px;
+} 
+
+.p-skills {
+    background-color: #3d00e4;
+    color: whitesmoke;
+}
+.p-formação{
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color: #3d00e4;
+    color: whitesmoke;
+}
+
+.p-experiencia-profissional {
+    background-color: #3d00e4;
+    color: whitesmoke;
+}
+
+.titulos-sobre p{
+   
+   font-size: 25px;
+   color: whitesmoke;
+}
+
+.lists {
+    margin-left: 130px;
+    display: flex;
+    font-size: 18px;
+    color: black;
+    
+    
+}
+
+.div-lists {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.list-skill li{
+    list-style: none;
+
+}
+
+.list-experiencia-profissional{
+    margin-left: 95px;
+}
+
+.list-experiencia-profissional li {
+    list-style: none;
+}
+
+.list-skill {
+    font-size: 18px;
+    margin-left: 120px;  
+}
+
+.lists li{
+    list-style: none;    
+}
+
+.h3-projetos-galeria {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+.h3-projeto-sistema-loja {
+    margin-right: 358px;
+    background-color: #3d00e4;
+    color: whitesmoke; 
+}
+
+.h3-projeto-2 {
+    margin-right: 459px;
+    background-color: #3d00e4;
+    color: whitesmoke;
+}
+
+.h3-projeto-3 {
+    background-color: #3d00e4;
+    color: whitesmoke;
+}
+
+.section-galeria{
+    margin-top: 120px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.section-galeria h2 {
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Playfair Display', Serif;
+    font-size: 60px;
+    color: #3d00e4;
+    text-align: end;
+}
+
+.section-galeria img {
+    width: 400px;
+    height: 600px;
+}
+
+.imgs-galeria {
+    margin-top: 10px;
+    margin-left: 150px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    margin-top:80px;
+    background-color: #3d00e4;
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    height: 59px;
+}
+
+footer img{
+    width: 40px;
+    margin-left: 15px;
+}
+
+
+/* CONTATO.HTML */
+
+#section-contato{
+    height: 29.8vw;
+    margin-top: 90px;
+}
+main {
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+
+margin-left: 60px;
+margin-right: 60px;
+
+}
+
+#div-contato {
+    height: 350px;
+}
+
+#linha-contato {
+    background-color: #3d00e4;
+    width: 1px;
+    height: 275px;
+}
+
+main div h2 {
+    text-align: left;
+}
+main div p {    
+margin-top: 10px;
+color: whitesmoke;
+background-color: #3d00e4;
+width: 290px;
+padding-left: 10px;
+font-size: 18px;
+}
+
+
+form {
+    
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+form input {
+    width: 300px;
+    height: 20px;
+    margin-bottom: 10px;
+    margin-top: -3px;
+    margin-left: 2vw;
+    border: 1px solid #3d00e4;
+}
+
+form label {
+   color: whitesmoke;
+    margin-bottom: 2px;
+    background-color: #3d00e4;
+    margin-right: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 6px;
+    margin-left: 2.01vw;
+    margin-top: 0.1vw;
+}
+
+main h2{
+    margin-top: 90px;
+    
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;  
+}
+
+#label-email{
+width: 185.3px;
+
+
+}
+
+#label-nome{
+    width: 115.1px;
+}
+
+#label-mensagem {
+    width: 256px;
+}
+
+form #input-mensagem {
+    height: 80px;
+    width: 500px;
+}
+
+form button {
+    all: unset;
+    background-color: #3d00e4;
+    color: whitesmoke;
+    width: 84px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 446px;
+    margin-bottom: 10px;
+}
+
+/* projetos.html */
+
+.section-projetos {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 60px;
+    height: 40vw;
+}
+
+.section-projetos div img {
+
+    width: 400px;
+    height: 600px;
+    margin-left: 20px;
+    margin-top: -20px;   
+}
+
+.p-tecnologias {
+    color: #3d00e4;
+}
+
+.div-foto-projeto {
+    background-color: #3d00e4;
+    width: 400px;
+    height: 598px;
+    margin-top: 10px;
+    margin-left: 99px;
+} 
+
+.div-foto-projeto-2 {
+    background-color: #3d00e4;
+    width: 400px;
+    height: 598px;
+    margin-top: 10px;
+    margin-left: 210px;
+    margin-right: 110px;
+}
+
+.textos-projetos {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+    margin-right: 40px; 
+}
+
+.textos-projetos h2 {
+    color: whitesmoke;
+    background-color: #3d00e4;
+    width: 286px;
+    padding-left: 15px;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+.textos-projetos p {
+    margin-left: 75px;
+    margin-top: 10px;
+    width: 410px;
+}
