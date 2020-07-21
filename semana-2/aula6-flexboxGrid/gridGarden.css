@@ -341,4 +341,8 @@
   }
 
 
-
+/* -------------------- */
+  #garden {
+    display: grid;
+  grid-template: 10fr 50px / 1fr 4fr;
+  }
