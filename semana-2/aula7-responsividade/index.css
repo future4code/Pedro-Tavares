@@ -6,21 +6,12 @@ body {
 }
 
 
-
 div {
-    border: 1px solid black;
-    
-    
-    
-    
+    border: 1px solid black;   
 }
 
 #first-block {
     background-color: red;
-    /* width: 100vw;
-    justify-self: center; */
-    /*
-    height: 100px; */
 }
 
 .blue-block {
@@ -44,46 +35,73 @@ div {
     background-color: white;
 }
 
-/* ------------------ */
+/* #### Mobile #### */
+
 @media only screen and (max-width:375px){
     
     #main-container {
         display: grid;
         grid-template-rows: 2fr 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr;
-        grid-template-columns: repeat(auto-fit, 90vw);
+        grid-template-columns: repeat(auto-fit, 90vw); /*#PESQUISAR# Entender essa parte do codigo*/
         height: 100vh;
         row-gap: 15px;
-         column-gap: 10px;
+        column-gap: 10px;
         border: none;
         justify-content: center;
     }
         
-        div {
-            border: 1px solid black;
-            text-align: center;
-            
-            
-            
-        }
+    div {
+        border: 1px solid black;
+        text-align: center;     
+    }
         
-        #first-block {
+    #first-block {
            
-            width: 100vw;
-            justify-self: center;
-            /*
-            height: 100px; */
-        }
+        width: 100vw;
+        justify-self: center;
+    }
+}
 
+/* #### Tablet #### */
+
+@media only screen and (min-width:376px) {
+    #main-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 2fr 4fr 4fr 4fr 4fr 11fr 4fr 4fr;
+        row-gap: 15px;
+        column-gap: 15px;
+        height: 100vh;
+        border: none;
+    }
+
+    #first-block {
+        background-color: red;
+        grid-column-start: 1 ;
+        grid-column-end: 3;       
+    }
+
+    .blue-block {
+        background-color: blue;
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+
+    .green-block {
+        background-color: green;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+
+    #white-block-11 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
 
 }
 
-/* ------------ */
-
-
-
-
-
-
+/* #### desktop #### */
 
 @media only screen and (min-width:1025px) {
     #main-container{
@@ -99,11 +117,6 @@ div {
         background-color: red;
         grid-column-start: 1 ;
         grid-column-end: 7;
-        
-        /* width: 100vw;
-        justify-self: center; */
-        /*
-        height: 100px; */
     }
 
     .blue-block {
@@ -134,15 +147,12 @@ div {
     #black-block-8{
         grid-column-start: 4;
         grid-column-end: 7;
-
     }
 
     .white-block {
         background-color: white;
         grid-column-start: 1;
         grid-column-end: 3;
-        
-        
     }
 
     #white-block-10{
