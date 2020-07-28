@@ -21,11 +21,11 @@
 
 //1
 
-// let idade = prompt("Qual a sua idade?")
-// let idadeAmigo = prompt("Qual a idade da sua melhor amiga?")
-// let comparacaoIdade = console.log("Sua idade é maior do que a do seu amigo?", idade > idadeAmigo)
+let idade = prompt("Qual a sua idade?")
+let idadeAmigo = prompt("Qual a idade da sua melhor amiga?")
+let comparacaoIdade = console.log("Sua idade é maior do que a do seu amigo?", idade > idadeAmigo)
 
-// let sumDireferenca = console.log("Diferença de", Number(idade - idadeAmigo), "anos")
+let sumDireferenca = console.log("Diferença de", Number(idade - idadeAmigo), "anos")
 
 //2
 
@@ -37,13 +37,19 @@ console.log(evenNumber % 2)
 
 //3
 
-// let listaDeTarefas = []
+let listaDeTarefas = []
 
-// let tarefasAFazer = Array(prompt("Me conte 1 tarefas que tu precisa realizar hoje:"))
+let tarefaAFazer1 = Array(prompt("Irei te perguntar 3 tarefas. Primeiro: Me conte a 1ª tarefas que tu precisa realizar hoje:"))
 
-// let addArrayItems = listaDeTarefas.push(tarefasAFazer[i])
+let tarefaAFazer2 = Array(prompt("Me conte a 2ª tarefa:"))
 
-// console.log(addArrayItems)
+let tarefaAFazer3 = Array(prompt("Me conte a 3ª tarefa:"))
+
+listaDeTarefas.push(tarefaAFazer1)
+listaDeTarefas.push(tarefaAFazer2)
+listaDeTarefas.push(tarefaAFazer3)
+
+console.log(listaDeTarefas)
 
 //4
 
