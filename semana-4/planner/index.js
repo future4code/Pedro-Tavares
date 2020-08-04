@@ -10,34 +10,41 @@ function addTarefa() {
     switch (valorDiasSemana) {
         case "domingo":
             diaEscolhido = document.getElementById("domingo")
-            diaEscolhido.innerHTML += `<p>${valorInputTarefa}</p>`
+            diaEscolhido.innerHTML += `<p class="tarefa" onclick="riscarTarefa()">${valorInputTarefa}</p>`
             break
         case "segunda":
             diaEscolhido = document.getElementById("segunda")
-            diaEscolhido.innerHTML += `<p>${valorInputTarefa}</p>`
+            diaEscolhido.innerHTML += `<p class="tarefa">${valorInputTarefa}</p>`
             break
         case "terca":
             diaEscolhido = document.getElementById("terca")
-            diaEscolhido.innerHTML += `<p>${valorInputTarefa}</p>`
+            diaEscolhido.innerHTML += `<p class="tarefa">${valorInputTarefa}</p>`
             break
         case "quarta":
             diaEscolhido = document.getElementById("quarta")
-            diaEscolhido.innerHTML += `<p>${valorInputTarefa}</p>`
+            diaEscolhido.innerHTML += `<p class="tarefa">${valorInputTarefa}</p>`
             break
         case "quinta":
             diaEscolhido = document.getElementById("quinta")
-            diaEscolhido.innerHTML += `<p>${valorInputTarefa}</p>`
+            diaEscolhido.innerHTML += `<p class="tarefa">${valorInputTarefa}</p>`
             break
         case "sexta":
             diaEscolhido = document.getElementById("sexta")
-            diaEscolhido.innerHTML += `<p>${valorInputTarefa}</p>`
+            diaEscolhido.innerHTML += `<p class="tarefa">${valorInputTarefa}</p>`
             break
         case "sabado":
             diaEscolhido = document.getElementById("sabado")
-            diaEscolhido.innerHTML += `<p>${valorInputTarefa}</p>`
+            diaEscolhido.innerHTML += `<p class="tarefa">${valorInputTarefa}</p>`
             break
     }
 
     inputTarefa.value = ""
 }
 
+// *** Continuar desafio depois***
+
+// function riscarTarefa(){
+//     document.getElementsByClassName('tarefa').style.backgroundColor = "blue"
+    
+
+// }
