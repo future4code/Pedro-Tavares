@@ -4,6 +4,9 @@ function addTarefa() {
     let valorDiasSemana = document.getElementById("dias-semana").value
     let diaEscolhido
 
+    if (valorInputTarefa === ""){
+        alert("Você esqueceu de digitat a tarefa!")
+    }
     switch (valorDiasSemana) {
         case "domingo":
             diaEscolhido = document.getElementById("domingo")
@@ -32,8 +35,9 @@ function addTarefa() {
         case "sabado":
             diaEscolhido = document.getElementById("sabado")
             diaEscolhido.innerHTML += `<p>${valorInputTarefa}</p>`
-            break            
+            break
     }
 
     inputTarefa.value = ""
 }
+
