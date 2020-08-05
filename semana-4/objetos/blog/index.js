@@ -12,13 +12,17 @@ function criarPost() {
         conteudo: conteudoPost
     }
 
-    let container = document.getElementById('container-de-posts')
+    const container = document.getElementById('container-de-posts')
     container.innerHTML += `<div id="conteudoPostado"></div>`
     
-    let divPostPublicado = document.getElementById('conteudoPostado')
+    const divPostPublicado = document.getElementById('conteudoPostado')
     divPostPublicado.innerHTML += `<h1>${tituloPost}</h1>`
     divPostPublicado.innerHTML += `<h5><i> ${autorPost}</i></h5>`
-    divPostPublicado.innerHTML += `<br><p>${conteudoPost}</p>`
+    divPostPublicado.innerHTML += `<br><p>${conteudoPost}</p><br>`
+
+    document.getElementById('titulo-post').value=''
+    document.getElementById('autor-post').value=''
+    document.getElementById('conteudo-post').value=''
 }
 
 
