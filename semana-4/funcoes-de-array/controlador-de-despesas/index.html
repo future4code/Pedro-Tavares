@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <section id="cadastro-de-despesas">
+        <form action="">
+            <label for="valor">Valor:</label>
+            <input type="text" name="valor" id="valor-despesa" value="">
+            <br>
+            <label for="tipo">Tipo de despesa</label>
+            <select name="tipo" id="tipo-despesa">
+                <option value="casa">casa</option>
+                <option value="saude">saúde</option>
+                <option value="viagem">viagem</option>
+            </select>
+            <br>    
+                <label for="descricao-despesa">Descrição:</label>
+                <input id="descricao-despesa" name="descricao-despesa" type="text">
+            </form>
+            <button  onclick="armazenarInfo()">Cadastrar Despesas</button>
+    </section>
+</body>
+</html>
